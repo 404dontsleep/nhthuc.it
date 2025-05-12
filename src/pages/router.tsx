@@ -1,15 +1,18 @@
-import type { RouteObject } from "react-router-dom";
-import MainLayout from "../layouts/tailwind/MainLayout";
+import { Outlet, type RouteObject } from "react-router-dom";
 import ErrorBoundary from "../layouts/ErrorBoundary";
 import { portfolioRouter } from "./portfolio/router";
 export const router: RouteObject[] = [
   {
-    path: "/",
+    path: "nhthuc.it/",
     element: (
       <ErrorBoundary>
-        <MainLayout />
+        <Outlet />
       </ErrorBoundary>
     ),
+    children: [...portfolioRouter],
   },
-  ...portfolioRouter,
+  {
+    path: "*",
+    element: <>404</>,
+  },
 ];
