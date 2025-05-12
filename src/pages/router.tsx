@@ -1,9 +1,9 @@
-import { Outlet, type RouteObject } from "react-router-dom";
+import { Link, Outlet, type RouteObject } from "react-router-dom";
 import ErrorBoundary from "../layouts/ErrorBoundary";
 import { portfolioRouter } from "./portfolio/router";
 export const router: RouteObject[] = [
   {
-    path: "nhthuc.it/",
+    path: "/",
     element: (
       <ErrorBoundary>
         <Outlet />
@@ -13,6 +13,10 @@ export const router: RouteObject[] = [
   },
   {
     path: "*",
-    element: <>404</>,
+    element: (
+      <>
+        <Link to='/'>Go to home</Link>
+      </>
+    ),
   },
 ];

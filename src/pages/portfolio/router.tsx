@@ -1,8 +1,8 @@
 import type { RouteObject } from "react-router-dom";
-import Portfolio from "./index";
+import InternFrontendDeveloperPage from "./InternFrontendDeveloperPage";
 export const portfolioRouter: RouteObject[] = [
   {
     path: "portfolio",
-    element: <Portfolio />,
+    element: <InternFrontendDeveloperPage />,
   },
 ];

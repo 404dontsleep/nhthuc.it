@@ -251,7 +251,7 @@ function Project() {
   );
 }
 
-export default function Portfolio() {
+export default function InternFrontendDeveloperPage() {
   return (
     <div className='flex flex-row text-gray-500 w-full'>
       <Contact />
