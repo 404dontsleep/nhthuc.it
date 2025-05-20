@@ -167,7 +167,7 @@ export default function MainPage() {
               description:
                 "An immersive VR game where you defend your territory by using a gun to eliminate waves of invading rats. Features realistic weapon mechanics and challenging gameplay.",
               tags: ["VR", "Unity", "Meta Quest 3", "Game", "FPS"],
-              image: "assets/vrshot.png",
+              image: "./assets/vrshot.png",
               link: "https://github.com/404dontsleep/VRShot",
             },
             {
@@ -175,7 +175,7 @@ export default function MainPage() {
               description:
                 "A game created while learning about VR and MetaSDK, allowing free creativity with the world using available objects",
               tags: ["VR", "Unity", "Meta Quest 3"],
-              image: "assets/vrworld.png",
+              image: "./assets/vrworld.png",
               link: "https://github.com/404dontsleep/VRShot",
             },
           ].map((project, index) => (
