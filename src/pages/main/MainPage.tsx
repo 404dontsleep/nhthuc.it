@@ -166,7 +166,7 @@ export default function MainPage() {
               name: "My VR Shot",
               description:
                 "An immersive VR game where you defend your territory by using a gun to eliminate waves of invading rats. Features realistic weapon mechanics and challenging gameplay.",
-              tags: ["VR", "Unity", "Meta Quest 3", "Game", "FPS"],
+              tags: ["VR", "Unity", "Meta Quest 3", "Game"],
               image: "./assets/vrshot.png",
               link: "https://github.com/404dontsleep/VRShot",
             },
@@ -177,6 +177,14 @@ export default function MainPage() {
               tags: ["VR", "Unity", "Meta Quest 3"],
               image: "./assets/vrworld.png",
               link: "https://github.com/404dontsleep/VRShot",
+            },
+            {
+              name: "My VR Room",
+              description:
+                "An immersive AR game featuring intuitive hand tracking interactions and an intuitive UI system for collecting and managing virtual items in real-world environments, creating a seamless blend of digital and physical experiences",
+              tags: ["VR", "Unity", "Meta Quest 3", "AR", "Hand Tracking"],
+              image: "./assets/vrroom.png",
+              link: "https://webapp-sg.tiktok.com/ee27a4c5596489ea61886541add4f869/682dc5e6/kmoat/tos-alisg-pve-0037c001/okQQDJ8MgQIFjfMIuaesM3foXCzAPQ8dWgN9IA?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=2232&bt=1116&cs=0&ds=6&ft=LrmapoTzD12NvHS-lWIxRNyNJlBF-UjNS8opiX&mime_type=video_mp4&qs=0&rc=cnF8b2hsc2d3SkBwaHIxaDFybndmNDc6aDs3OzQzOGYzZjQ0NUBpM3k3dms5cjpuczMzODczNEBjRl5Nc3FePmJKYSNvYF90aHFmOiNgXjJfMGBiXi8xLTQxNjNhYSNvc2QvMmRrY2tgLS1kMS1zcw%3D%3D&btag=200088000&dpk=81EXDRZBmptETz%2BTvmQ4vXtar%2BHoD5Zm5inLeDjkxiW6unkQxQD3IKhQO4ix3r2OUSTsMDStjgOvZG7LZvftW%2FPqYgw9ldt%2BDFF8rA%3D%3D&dpm=cenc-aes-ctr&l=20250519202318B4EB0553BAF53252C21C&ply_type=3&policy=eyJ2bSI6MywidWlkIjoiNjYxMzg5NjE0MDUyNTQ1MzMxNCJ9",
             },
           ].map((project, index) => (
             <div
