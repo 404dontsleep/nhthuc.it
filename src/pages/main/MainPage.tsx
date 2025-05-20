@@ -176,7 +176,7 @@ export default function MainPage() {
                 "A game created while learning about VR and MetaSDK, allowing free creativity with the world using available objects",
               tags: ["VR", "Unity", "Meta Quest 3"],
               image: "./assets/vrworld.png",
-              link: "https://github.com/404dontsleep/VRShot",
+              link: "https://webapp-sg.tiktok.com/c1dbaa15b8e10294a62ec1c6c9471d2b/682dc5d2/kmoat/tos-alisg-pve-0037c001/oIPCMOiMhIBs66QA47HwfRiOzLExIi9AoBZUtA?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=624&bt=312&cs=0&ds=6&ft=LrmapoTzD12NvHS-lWIxRNyNJlBF-UjNS8opiX&mime_type=video_mp4&qs=0&rc=cnF8b2hsc2d3SkBwaHIxaDFybndmOjo1NDY4OTdmOjtkaTQ8NkBpajRuN3Q5cnc8czMzODczNEBjRl5Nc3FePmJKYSNvYF90aHFmOiMuMTUuNGFhXi4xNDAzMTFiYSNxbWM0MmRjbGVgLS1kMS1zcw%3D%3D&btag=2000b8000&dpk=vPApjDEf6yTi0fm9rRYWAePcWuuuTw9oIhhoT3ItNtr41gVmbO7e34oKwHpWGGWZpGA1Bm%2B2%2BU20h%2ByI0hj%2FzYY5e2U0bCMRPjtllg%3D%3D&dpm=cenc-aes-ctr&l=20250519202318B4EB0553BAF53252C21C&ply_type=3&policy=eyJ2bSI6MywidWlkIjoiNjYxMzg5NjE0MDUyNTQ1MzMxNCJ9",
             },
             {
               name: "My VR Room",
