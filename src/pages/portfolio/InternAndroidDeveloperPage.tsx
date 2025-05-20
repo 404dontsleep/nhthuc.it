@@ -1,14 +1,15 @@
-import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react";
+import { MailIcon, PhoneIcon, MapPinIcon, GithubIcon } from "lucide-react";
 
 const portfolio = {
   name: "Thuc Nguyen Huu",
-  title: "Intern Frontend Developer",
+  title: "Intern Android Developer",
   about: (
     <>
       I am a student at <b>Vietnam-Korea University of Information and Communication Technology</b> with{" "}
-      <b>strong self-learning abilities</b> and quick learning skills. I have a <b>passion for frontend development</b>{" "}
+      <b>strong self-learning abilities</b> and quick learning skills. I have a <b>passion for mobile development</b>{" "}
       and am particularly good at <b>algorithms</b>. My ability to <b>research independently</b> and absorb new
-      knowledge helps me quickly adapt to modern technologies and frameworks in web development.
+      knowledge helps me quickly adapt to modern Android technologies and frameworks like Jetpack, Material Design, and
+      popular libraries.
     </>
   ),
   certificates: [
@@ -24,7 +25,7 @@ const portfolio = {
     },
     {
       time: <b>09/2021</b>,
-      title: "Present Major: Software Engineer Certificates 03/2021 Second Prize in",
+      title: "Second Prize in LQDOJ CUP 2021 University division",
       link: "https://lqdoj.edu.vn/user/undefined",
     },
     {
@@ -33,17 +34,23 @@ const portfolio = {
       link: "https://drive.google.com/file/d/1r5jXd3uarJpKCwnWuWkZ59CrsinPCrve/edit",
     },
   ],
-  skills: ["React", "React Router", "React Hooks", "Zustand", "Next.js", "Tailwind CSS", "TypeScript", "Node.js"],
-  softSkills: ["Effective Communication", "Teamwork", "Problem Solving", "Self-learning"],
+  skills: ["Android Studio", "Kotlin", "Java", "OOP", "Git", "Android SDK", "Material Design", "MVVM Architecture"],
+  softSkills: ["Communication", "Teamwork", "Problem Solving", "Self-learning", "Fast Learner"],
   contact: [
     { icon: <MailIcon className='w-4 h-4' />, text: "nhthuc.it@gmail.com", href: "" },
     { icon: <PhoneIcon className='w-4 h-4' />, text: "+84 395 743 566", href: "" },
     { icon: <MapPinIcon className='w-4 h-4' />, text: "Da Nang, Vietnam", href: "" },
+    {
+      icon: <GithubIcon className='w-4 h-4' />,
+      text: "@dontsleep404",
+      href: "https://github.com/404dontsleep",
+    },
   ],
   education: [
     {
       time: <b>2021 - Present</b>,
       school: "Vietnam-Korea University of Information and Communication Technology",
+      description: "4th year Software Engineer student",
     },
   ],
   experience: [
@@ -52,70 +59,45 @@ const portfolio = {
       position: "Intern Frontend Developer",
       company: "SAFEHORIZONS SOFTWARE SERVICE COMPANY LIMITED",
       description: [
-        <>
-          Implemented responsive UIs using <b>ReactJS</b>
-        </>,
-        <>
-          Utilized <b>Material UI</b> for consistent and visually appealing design
-        </>,
-        <>Integrated frontend components with backend APIs for seamless functionality</>,
+        "Implemented responsive UIs using ReactJS",
+        "Utilized Material UI for consistent and visually appealing design",
+        "Integrated frontend components with backend APIs for seamless functionality",
       ],
     },
     {
       time: <b>2022 - Present</b>,
       position: "Freelancer",
       company: "",
-      description: [],
+      description: [
+        "Developed browser automation tools",
+        "Built and developed web applications",
+        "Optimized web performance and user experience",
+        "Fixed bugs and deployed web applications",
+      ],
     },
   ],
   projects: [
     {
-      name: "Web3 Social Network",
-      description: "Decentralized social network platform built with Web3 technologies",
-      details: [
-        <>
-          Developed smart contracts using <b>Solidity</b> and <b>Hardhat</b>
-        </>,
-        <>
-          Built responsive frontend with <b>TypeScript</b> and <b>React</b>
-        </>,
-        <>
-          Implemented <b>Web3 wallet integration</b> and blockchain interactions
-        </>,
+      name: "Labyrinth Game",
+      description: "A maze game developed with Kotlin for Android",
+      link: "https://github.com/dontsleep404/Labyrinth",
+      technologies: ["Kotlin", "Android Canvas", "OOP"],
+      role: [
+        "Developed a maze game with multiple difficulty levels",
+        "Implemented scoring system and player movement logic",
+        "Optimized performance and user experience",
       ],
-      technologies: ["Solidity", "Hardhat", "TypeScript", "React"],
     },
     {
-      name: "PetShop Management System",
-      description: "Full-stack application for pet shop management and operations",
-      details: [
-        <>
-          Built with <b>TypeScript</b>, <b>React</b> for frontend and <b>Node.js</b> for backend
-        </>,
-        <>
-          Containerized application using <b>Docker</b> and <b>Docker Compose</b>
-        </>,
-        <>
-          Implemented <b>RESTful APIs</b> and database integration
-        </>,
+      name: "PetShop App",
+      description: "Cross-platform pet shop management application",
+      link: "https://github.com/404dontsleep/PetShop",
+      technologies: ["React Native", "Node.js", "MongoDB", "Docker"],
+      role: [
+        "Developed cross-platform mobile app using React Native and Expo",
+        "Built RESTful API with Node.js and MongoDB",
+        "Implemented Docker for development and deployment environment",
       ],
-      technologies: ["TypeScript", "React", "Node.js", "Docker", "Docker Compose"],
-    },
-    {
-      name: "SimpleBase Admin Panel",
-      description: "Configurable admin dashboard for system management",
-      details: [
-        <>
-          Developed using <b>TypeScript</b> and modern web technologies
-        </>,
-        <>
-          Implemented <b>dynamic configuration system</b>
-        </>,
-        <>
-          Containerized deployment with <b>Docker</b>
-        </>,
-      ],
-      technologies: ["TypeScript", "React", "Docker"],
     },
   ],
 };
@@ -131,7 +113,11 @@ function Contact() {
   };
   return (
     <div className='flex flex-col w-sm p-10 bg-gray-100'>
-      <img src={"https://avatar.iran.liara.run/public/7"} alt='' className='rounded-full w-64 h-64 mx-auto' />
+      <img
+        src={"https://upload.wikimedia.org/wikipedia/commons/6/64/Android_logo_2019_%28stacked%29.svg"}
+        alt=''
+        className='w-64 h-64 mx-auto'
+      />
       <hr className='my-4 border-gray-500' />
       <div className='flex flex-col'>
         <h1 className='text-2xl font-bold mb-4'>Contact</h1>
@@ -209,7 +195,7 @@ function Project() {
         <h1 className='text-2xl font-bold mb-4'>Experience</h1>
         <ul className='list-disc ml-4'>
           {portfolio.experience.map((item, index) => (
-            <li key={index} className='mb-8'>
+            <li key={index} className={index > 0 ? "mt-8" : ""}>
               <b>{item.time}</b>
               <br />
               <b>{item.position}</b>
@@ -232,17 +218,30 @@ function Project() {
         <h1 className='text-2xl font-bold mb-4'>Projects</h1>
         <ul className='list-disc ml-4'>
           {portfolio.projects.map((project, index) => (
-            <li key={index} className='mb-6'>
-              <b>{project.name}</b>
-              <br />
-              Technologies: <span className='text-gray-500 font-bold'>{project.technologies.join(", ")}</span>
-              <br />
-              <span className='text-gray-500'>{project.description}</span>
-              <ul className='list-disc ml-4 mt-2'>
-                {project.details.map((detail, detailIndex) => (
-                  <li key={detailIndex}>{detail}</li>
-                ))}
-              </ul>
+            <li key={index} className='mb-8'>
+              <div className='flex items-center gap-2'>
+                <b className='text-xl'>{project.name}</b>
+                {project.link && (
+                  <a className='text-blue-500 underline' href={project.link} target='_blank' rel='noopener noreferrer'>
+                    Github
+                  </a>
+                )}
+              </div>
+              <p className='text-gray-600 mt-1'>{project.description}</p>
+              <div className='mt-2'>
+                <span className='font-semibold'>Technologies: </span>
+                <span className='text-gray-500'>{project.technologies.join(" • ")}</span>
+              </div>
+              <div className='mt-2'>
+                <span className='font-semibold'>Role & Contributions:</span>
+                <ul className='list-disc ml-6 mt-1'>
+                  {project.role.map((role, roleIndex) => (
+                    <li key={roleIndex} className='text-gray-600'>
+                      {role}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </li>
           ))}
         </ul>
@@ -251,11 +250,14 @@ function Project() {
   );
 }
 
-export default function InternFrontendDeveloperPage() {
+export default function InternAndroidDeveloperPage() {
   return (
-    <div className='flex flex-row text-gray-500 w-full'>
-      <Contact />
-      <Project />
-    </div>
+    <>
+      <title>Intern Android Developer - Thuc Nguyen Huu</title>
+      <div className='flex flex-row text-gray-500 w-full'>
+        <Contact />
+        <Project />
+      </div>
+    </>
   );
 }
